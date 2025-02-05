@@ -1,0 +1,15 @@
+{
+  "name": "accessibility-tester",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "node ./lib/node/postinstall.js",
+    "preuninstall": "node ./lib/node/preuninstall.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "playwright": "^1.50.1"
+  }
+}
